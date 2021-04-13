@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="pagination.css">
+    <title>질문게시판</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header abc">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="login.html">로그인</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home<span class="sr-only"></span></a></li>
+                    <li class="active"><a href="more.html">기본정보</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">sns<span class="caret"></span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a href="https://www.instagram.com/woo_genius_">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100005576584137">Facebook</a></li>
+                            <li><a href="https://blog.naver.com/material18">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a href="login.html">로그인</a></li>
+                            <li><a href="sign.html">회원가입</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>질문게시판</h1>
+    </header>
+    <div style="height:250px;">
+        <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>날짜</th>
+                <th>조회수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5</td>
+                <td class="dropdown">
+                    <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false"><span>술 잘마시나요??</span></a>
+                    <ul class="dropdown-menu">	
+                        <li><a>잘 못마셔요 ㅋㅋㅋㅋㅋㅋ 한잔만 마셔도 얼굴 빨개지고 많이 마셔도 한 병 마신답니다.....</a></li>
+                    </ul>
+                </td>
+                <td>호윤님</td>
+                <td>2021.04.12</td>
+                <td>141</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="dropdown">
+                    <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false"><span>어떤게임 좋아하시나요??</span></a>
+                    <ul class="dropdown-menu">	
+                        <li><a>메이플, 롤 , FM합니다~!~!</a></li>
+                    </ul>
+                </td>
+                <td>김균</td>
+                <td>2021.04.10</td>
+                <td>167</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="dropdown">
+                    <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false"><span>주식 수익률 공개해주세요!!</span></a>
+                    <ul class="dropdown-menu">	
+                        <li><a>곤란. +되면 공개합니다.</a></li>
+                    </ul>
+                </td>
+                <td>주노</td>
+                <td>2021.04.10</td>
+                <td>1035</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="dropdown">
+                    <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false"><span>보통 어떤노래 듣나요??</span></a>
+                    <ul class="dropdown-menu">	
+                        <li><a>이것저것 가리지 않고 듣는 편이에요. 아이돌 노래도 듣고, 팝송이나 발라드도 들어요. 집중 할땐 가끔 클래식도 듣는답니다..!!</a></li>
+                    </ul>
+                </td>
+                <td>***</td>
+                <td>2021.04.08</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="dropdown">
+                    <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false"><span>나이랑 학과가 어떻게 되시나요??</span></a>
+                    <ul class="dropdown-menu">	
+                        <li><a>저는 23살이고 전자공학과에 재학중입니다. 신소재공학에서 전과를 했어요. ㅎㅎ</a></li>
+                    </ul>
+                </td>
+                <td>***</td>
+                <td>2021.04.07</td>
+                <td>3215</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="more.html">1</a></li>
+        <li class="page-item active"><a class="page-link" href="more_2.html">2</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

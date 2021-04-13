@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.middle{
+    text-align: center;
+    float: center;
+}
+h1{
+    padding: 50px;
+    height: 200x;
+}
+h2{
+    padding: 30px;
+}

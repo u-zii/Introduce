@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="pagination.css">
+    <title>질문게시판</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header abc">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="login.html">로그인</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home<span class="sr-only"></span></a></li>
+                    <li class="active"><a href="more.html">기본정보</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">sns<span class="caret"></span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a href="https://www.instagram.com/woo_genius_">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100005576584137">Facebook</a></li>
+                            <li><a href="https://blog.naver.com/material18">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a href="login.html">로그인</a></li>
+                            <li><a href="sign.html">회원가입</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>질문게시판</h1>
+    </header>
+    <div style="height:250px;">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>날짜</th>
+                    <th>조회수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8</td>
+                    <td class="dropdown">
+                        <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false"><span>멋사를 하게 된 계기는??</span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a>코딩하다가 혼자보다는 다른사람이랑도 해보고 싶다는 생각에 지원했었어요~~</a></li>
+                        </ul>
+                    </td>
+                    
+                    <td>***</td>
+                    <td>2021.04.10</td>
+                    <td>675</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="dropdown">
+                        <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false"><span>취미가 뭔가요??</span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a>음...저는 노래듣는 것을 좋아하구요. 스포츠 보는 것도 좋아해요.</a></li>
+                        </ul>
+                    </td>
+                    <td>***</td>
+                    <td>2021.04.13</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="dropdown">
+                        <a style="color:black;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false"><span>요즘 뭐하고 지내시나요?</span></a>
+                        <ul class="dropdown-menu">	
+                            <li><a>저는 평일은 매일 출근을 해요. 출근해서 코딩공부를 하거나, 아이패드로 그림을 그리는 편이죠!!<figure><img src="../images/hy.jpg"/></figure></a></li>
+                        </ul>
+                    </td>
+                    <td>엘리</td>
+                    <td>2021.04.13</td>
+                    <td>134</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <ul class="pagination justify-content-center">
+        <li class="page-item active"><a class="page-link" href="more.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="more_2.html">2</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
